@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+  <title>DiscordWSpammer</title>
+</head>
+<body>
+  <h1 class="glow">Webhook Spammer</h1>
+  <div id="controls">
+    <div class="inputs">
+      <input id="url" class="glow-input" placeholder="*Webhook URL:" required>
+      <input id="username" class="glow-input" placeholder="Webhook Username:">
+      <input id="message" class="glow-input" placeholder="*Message:" required>
+      <input id="avatar" class="glow-input" placeholder="Avatar URL:">
+    </div>
+    <div class="buttons">
+      <button id="start" class="glow-button">Start</button>
+      <button id="stop" class="glow-button" disabled>Stop</button>
+      <button id="helloButton" class="glow-button">Greet</button>
+    </div>
+  </div>
+  <script>
+    document.getElementById('helloButton').onclick = function() {
+      alert('Hope you enjoy this!');
+    };
+  </script>
+  <script src="js/script.js"></script>
+  <script src="js/modals.js"></script>
+  <footer>
+  <p style="text-align: center;">&copy; Capo106. All rights reserved.</p>
+</footer>
+</body>
+</html>
